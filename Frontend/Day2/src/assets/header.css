@@ -1,0 +1,25 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
